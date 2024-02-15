@@ -1,0 +1,76 @@
+h1{
+    width: 200px;
+    height: 200px;
+    padding: 2px;
+    padding-top: 3px;
+    padding-left: 4px;
+
+}
+h1{
+    margin: 1px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: uppercase ;
+    text-shadow: 2px 2px #fa0;
+    white-space: nowrap;/*com nowrap,texto não quebra . por isso ultrapassou os limites de contener */
+
+}
+.contener{
+    width: 50%;
+    margin: 0 auto;
+    padding: 40px;
+    background: #ccc;
+}
+.contener{
+    position: absolute;
+    width: absolute;
+    width: 40px;
+    height: 30px;
+    top: 20px;
+    left: 20px;
+    background:#0a0;
+}
+.contener{
+    width: 50%;
+    margin: 0 auto;
+    padding: 40px;
+    background: #ccc;
+    position: relative;
+}
+.contener.box{
+position: absolute;
+width: 40px;
+height: 30px;
+top: 20px;
+left:20px ;
+background: #0a0;
+}
+ul{
+    list-style: square inside;
+    counter-reset:my-counter;
+}
+li{
+    counter-increment:my-counter;
+    marker-offset: 10px;
+}
+li::before{
+    content: counter(my-counter)".";
+    font-weight: bold;
+}
+img{
+    mask: url(opina.jpg);
+    mask-type: luminance;
+
+
+}
+img{
+    outline-color: blue ;
+    outline-style: dashed;
+    outline-width: 3px;
+}
+
